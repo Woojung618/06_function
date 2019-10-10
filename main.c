@@ -18,5 +18,6 @@ int main(int argc, char *argv[]) {
 	printf("sumTwo: %d\n",output);
 	printf("square: %d\n",square(a));
 	printf("get_max: %d\n",get_max(a,b));
+	
 	return 0;
 }
