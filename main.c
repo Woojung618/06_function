@@ -13,6 +13,10 @@ int get_max(int a, int b){
 	return b;
 }
 int main(int argc, char *argv[]) {
-	
+	int a=2; int b=5; int output;
+	output=sumTwo(a,b);
+	printf("sumTwo: %d\n",output);
+	printf("square: %d\n",square(a));
+	printf("get_max: %d\n",get_max(a,b));
 	return 0;
 }
